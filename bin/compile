@@ -10,7 +10,7 @@ CACHE_DIR="$2"
 ENV_DIR="$3"
 BP_DIR=`cd $(dirname $0); cd ..; pwd`
 
-POSTGREST_VER=${POSTGREST_VER:-10.0.0}
+POSTGREST_VER=${POSTGREST_VER:-13.0.7}
 CLEAR_CACHE=${CLEAR_CACHE:-0}
 
 export_env_dir() {
