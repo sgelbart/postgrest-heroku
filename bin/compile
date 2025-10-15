@@ -42,7 +42,7 @@ BIN="postgrest-${POSTGREST_VER}"
 
 RELEASE_VER="v${POSTGREST_VER}"
 
-FILE_SUFFIX="linux-static-x64"
+FILE_SUFFIX="linux-static-x86-64"
 
 if [ ! -e $CACHE_DIR/$BIN ]; then
   BIN_URL="https://github.com/PostgREST/postgrest/releases/download/v${POSTGREST_VER}/postgrest-${RELEASE_VER}-${FILE_SUFFIX}.tar.xz"
